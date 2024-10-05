@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+ ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    padding: 0px;
+    margin: 0px;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ height: 550px;
+ gap: 60px;
+}
+ 
+
+.maintext {
+    font-size: 48px;
+  font-weight: 900;
+ }
+
+ .header, .maintext, .footer {
+  color: #F9FAF8;
+ }
+
+.logos {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightlogo {
+   display: flex;
+   flex-direction: column;
+}
+
+ .rightlogo, .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+ }
+
+ .header, .footer {
+    background-color: #1F2937;
+ }
+
+.leftlogo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.another {
+    display: flex;
+    flex-direction: column;
+}
+
+.textimg {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.subtext {
+    width: 480px;
+
+}
+
+.middle1 {
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.sign, .fourthcontainer {
+    background-color: #3882F6;
+}
+
+.sign {
+    color: white;
+    border-color: #ffffff;
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.containertexts {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.tiss, .uai, .oi {
+    margin: auto;
+}
+
+.belowtexts {
+    display: flex;
+    font-size: 18px;
+    flex-wrap: wrap;
+    width: 160px;
+    color: #6b6d72;
+}
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+}
+
+.thor {
+    font-weight: bold;
+} 
+
+.biggertext {
+    font-size: 25px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.fourthbelowtext {
+    font-weight: 700;
+    font-size: 15px;
+    color: #E5E7EB;
+}
+
+.squares {
+    width: 190px;
+    height: 190px;
+    border: solid rgb(92, 118, 233);
+    border-radius: 25px;
+    border-width: 6px;
+}
